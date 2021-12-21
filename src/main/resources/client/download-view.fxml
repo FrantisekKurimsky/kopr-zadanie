@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ProgressBar fx:id="loadingBarFiles" layoutX="19.0" layoutY="180.0" prefHeight="20.0" prefWidth="562.0" progress="0.0" />
+      <Label fx:id="download" layoutX="19.0" layoutY="31.0" prefHeight="70.0" prefWidth="354.0" text="DOWNLOAD...">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <Polygon fill="#a2c2e0" layoutX="50.0" layoutY="360.0" points="-50.0, 40.0, 50.0, 40.0, -50.0, -61.00001525878906" stroke="#a2c2e0" strokeType="INSIDE" />
+      <Polygon fill="#ffcad8" layoutX="550.0" layoutY="61.0" points="50.0, -61.000030517578125, 50.0, 40.0, -50.0, -61.00001525878906" stroke="#ffcad8" strokeType="INSIDE" />
+      <ProgressBar fx:id="loadingBarMB1" layoutX="19.0" layoutY="243.0" prefHeight="20.0" prefWidth="562.0" progress="0.0" />
+      <Label fx:id="numberFiles" layoutX="19.0" layoutY="155.0" prefHeight="17.0" prefWidth="201.0" text="number of files" />
+      <Label fx:id="numberMB" layoutX="19.0" layoutY="220.0" prefHeight="17.0" prefWidth="201.0" text="\% (MB)" />
+   </children>
+</AnchorPane>
